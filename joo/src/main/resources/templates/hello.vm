@@ -9,7 +9,7 @@
 </head>
 <body>
     <div ng-app="jorugiApp" ng-controller="MainCtrl">
-    	<h1>{{text}}</h1>
+    	<h1>{{text}} aa</h1>
 		<br/>
 		<br/>
 		<button ng-click="moveJorugiBoard()">게시판2</button>
