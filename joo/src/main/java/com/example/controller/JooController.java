@@ -21,6 +21,11 @@ public class JooController {
         model.addAttribute("name", name);
         return "hello";
     }
+    
+	@RequestMapping(value="/api/moveJorugiBoard", method = RequestMethod.GET)
+    public String moveJorugiBoard() {		
+    	return  "board/board_main";
+    }
 
 
 }
